@@ -58,10 +58,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeUC.Designer.cs">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductUC.Designer.cs">
+      <DependentUpon>ProductUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUC.resx">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductUC.resx">
+      <DependentUpon>ProductUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,6 +111,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zenbook.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
